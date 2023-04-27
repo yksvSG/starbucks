@@ -20,8 +20,8 @@ function onYouTubeIframeAPIReady() {
     },
     events: {
       onReady: (event) => {
-        // event.target.mute(); // 음소거
-        event.target.playVideo(); // 음소서 없이 재생
+        event.target.mute(); // 음소거
+        event.target.playVideo(); // 재생
       },
     },
   });
